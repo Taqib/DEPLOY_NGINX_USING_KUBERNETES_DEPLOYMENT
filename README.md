@@ -20,7 +20,7 @@ Here our file name is deployment-definition.yaml.
 Here is a YAML menifest file. This YAML defines a Kubernetes Deployment named "nginx-deployment" that ensures three replicas of the nginx container are running, each exposing port 80.
 
 Create the deployment:
-kubectl create -f deployment-definition.yaml
+##kubectl create -f deployment-definition.yaml
 
 Imperative approach
 We can create a Deployment as above using only one command instead of defining a YAML menifest file. Use the following command to create a similar Deployment:
@@ -31,12 +31,12 @@ It's particularly useful for quick prototyping, testing, or for situations. Howe
 
 Verifying Deployment and Pods
 Use the following command to list the Deployment:
-kubectl get deployments
+##kubectl get deployments
 
 Use the following command to list the Pods:
-kubectl get pods
+##kubectl get pods
 
 Use the following command to delete the Deployment:
-kubectl delete deployment nginx-deployment
+##kubectl delete deployment nginx-deployment
 
 
